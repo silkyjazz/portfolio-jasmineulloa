@@ -68,16 +68,17 @@ export default function Portfolio () {
           <Row>
             {cardData.map((card, index) => (
               <Col key={index} sm={12} md={4} className="mb-4">
-                <Card className="portfolio-item">
-                  <a href={card.link} target="blank">
+                 <a href={card.link} target="blank">
+                  <Card className="portfolio-item">
+                 
                   <Card.Img variant="top" id="portfolio-img" src={card.image} />
                   <Card.Text className="card-text">
                     {card.title}
                     <br />
                     {card.description}
                   </Card.Text>  
-                    </a>
-                </Card>
+                    
+                </Card></a>
               </Col>
             ))}
           </Row>
