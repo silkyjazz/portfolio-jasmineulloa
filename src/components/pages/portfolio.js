@@ -6,7 +6,7 @@ import noteTaker from "../../images/note-taker.png";
 import pwgenerator from "../../images/password-generator.png";
 import weatherDashboard from "../../images/weather-dashboard.png";
 import jsQuiz from "../../images/javascript-quiz.png";
-import employeeTracker from '../../images/employee-tracker.png';
+import employeeTracker from '../../images/employee-manager.png';
 
 const cardData = [
   {
@@ -14,13 +14,6 @@ const cardData = [
     image: noteTaker,
     description: "An application that can be used to write and save notes.",
     link: "https://github.com/silkyjazz/express-note-taker",
-  },
-  {
-    title: "Password Generator",
-    image: pwgenerator,
-    description:
-      "This is a web application that provides the user with a randomly generated password that meets their desired character criteria.",
-    link: "https://github.com/silkyjazz/password-generator",
   },
   {
     title: "Weather Dashboard",
@@ -42,6 +35,13 @@ const cardData = [
     description:
       "A simple text editor that runs in the browser and meets the PWA criteria.",
     link: "https://github.com/silkyjazz/text-editor",
+  },
+  {
+    title: "Password Generator",
+    image: pwgenerator,
+    description:
+      "This is a web application that provides the user with a randomly generated password that meets their desired character criteria.",
+    link: "https://github.com/silkyjazz/password-generator",
   },
   {
     title: "Employee Tracker",
@@ -69,7 +69,7 @@ export default function Portfolio () {
             {cardData.map((card, index) => (
               <Col key={index} sm={12} md={4} className="mb-4">
                 <Card className="portfolio-item">
-                  <Card.Img variant="top" href={card.link} src={card.image} />
+                  <Card.Img variant="top" id="portfolio-img" href={card.link} src={card.image} />
                   <Card.Text className="card-text">
                     {card.title}
                     <br />

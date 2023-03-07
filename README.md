@@ -23,26 +23,26 @@ You can visit the deployed site [Here](https://silkyjazz.github.io/react-portfol
 ## About
 In the "About Me" section, I introduce myself and provide some background information about myself. I also highlight my skills and interests related to web development.
 
-![About](/react-portfolio/assets/about.png)
+![About](/portfolio-jasmineulloa/assets/about.png)
 
 
 ## Portfolio
 
 The "Project Portfolio" section contains a gallery of my web development projects and descriptions of each project. Users can click on a project to learn more about it, and can also visit the live site or repository associated with each project.
 
-![Portfolio](/react-portfolio/assets/portfolio.png)
+![Portfolio](/portfolio-jasmineulloa/assets/portfolio.png)
 
 ## Contact
 
 The "Contact Form" section contains a form that users can fill out to send me a message. Users can input their name, email address, and message, and can click "Send" to submit their message.
 
-![Contact](/react-portfolio/assets/contact.png)
+![Contact](/portfolio-jasmineulloa/assets/contact.png)
 
 ## Resume
 
 In the "Resume" section, I provide a downloadable version of my resume in PDF format. Users can click on the download link to access my resume.
 
-![Resume](/react-portfolio/assets/resume.png)
+![Resume](/portfolio-jasmineulloa/assets/resume.png)
 
 
 ## License
