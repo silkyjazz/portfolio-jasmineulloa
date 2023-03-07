@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-jasmineulloa/static/css/main.a981127c.css",
-    "main.js": "/portfolio-jasmineulloa/static/js/main.f1c5a719.js",
+    "main.css": "/portfolio-jasmineulloa/static/css/main.9d5f6889.css",
+    "main.js": "/portfolio-jasmineulloa/static/js/main.9ec12b9c.js",
     "static/media/javascript-quiz.png": "/portfolio-jasmineulloa/static/media/javascript-quiz.c56c5c75c1ee3dc3639b.png",
     "static/media/password-generator.png": "/portfolio-jasmineulloa/static/media/password-generator.45b287195a78c9686e10.png",
     "static/media/text-editor.png": "/portfolio-jasmineulloa/static/media/text-editor.e9cdf088afcae9e18926.png",
@@ -19,11 +19,11 @@
     "static/media/fa-v4compatibility.ttf": "/portfolio-jasmineulloa/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio-jasmineulloa/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/portfolio-jasmineulloa/index.html",
-    "main.a981127c.css.map": "/portfolio-jasmineulloa/static/css/main.a981127c.css.map",
-    "main.f1c5a719.js.map": "/portfolio-jasmineulloa/static/js/main.f1c5a719.js.map"
+    "main.9d5f6889.css.map": "/portfolio-jasmineulloa/static/css/main.9d5f6889.css.map",
+    "main.9ec12b9c.js.map": "/portfolio-jasmineulloa/static/js/main.9ec12b9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a981127c.css",
-    "static/js/main.f1c5a719.js"
+    "static/css/main.9d5f6889.css",
+    "static/js/main.9ec12b9c.js"
   ]
 }
