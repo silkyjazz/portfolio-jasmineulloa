@@ -1,38 +1,206 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Libre+Baskerville&family=Source+Sans+Pro&family=Vollkorn:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Newsreader:ital,opsz,wght@1,6..72,200&family=Poppins&family=Source+Serif+Pro:wght@600&display=swap');
+
+*{
+  background-color:  #BC999A;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile-img{
+  height: 400px;
+  margin-right:-70px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about-me-section{
+  font-family: 'Source Serif Pro', serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+li{
+  font-family: 'Poppins', sans-serif; 
+}
+.page-title{
+  font-family: 'DM Serif Display', serif;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.name-title{
+  font-family: 'DM Serif Display', serif;
+  font-size: 60px;
+}
+.portfolio-item {
+  position: relative;
+  opacity: 1;
+}
+h3{
+  font-family: 'Source Serif Pro', serif;
+  margin-left: 80px;
+}
+#links{
+  font-family: 'Newsreader', serif;
+  font-size: 30px;
+  color: #F7C5CC;
+  
+}
+.portfolio-item:hover {
+  opacity: 0.5;
 }
 
-.App-link {
-  color: #61dafb;
+.card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 20px;
+  color: #fff; 
+  font-size: 18px;
+  text-align: center;
+  opacity: 0; 
+  transition: visibility 0s, opacity 0.5s ease-in-out; 
+}
+.card:hover .card-text {
+  visibility: visible;
+  opacity: 1;
+} 
+.icon{
+  color: #000;
+}
+.icon:hover{
+  opacity: 0.5;
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Tablet styles */
+@media (max-width: 1060px) {
+  .page-title {
+    font-size: 24px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .about-me-section {
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+}
+
+.resume-link{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+/* Tablet styles */
+@media (max-width: 1060px) {
+  .name-title {
+    font-size: 40px;
+  }
+
+  .page-title {
+    font-size: 24px;
+  }
+
+  .about-me-section {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .card-text {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .profile-img{
+    height: 300px;
+  }
+  .navigation{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 750px) {
+  .name-title {
+    font-size: 35px;
+  }
+
+  .page-title {
+    font-size: 24px;
+  }
+  .about-me-section-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-me-section {
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .card-text {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .profile-img{
+    height: 300px;
+    margin-left: 100px;
+  }
+  .navigation{
+    font-size: 10px;
+  }
+  
+}
+
+
+/* Mobile styles */
+@media (max-width: 576px) {
+  .name-title {
+    font-size: 32px;
+    margin-left: 15px;
+  }
+
+  .page-title {
+    font-size: 30px;
+  }
+  #about-me-title{
+    margin-left: -40px;
+  }
+  .about-me-section {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .card-text {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .portfolio-item {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-text {
+    padding: 5px;
+  }
+
+  .resume-link {
+    font-size: 14px;
+  }
+  .profile-img{
+    height: 300px;
+    align-content: center;
+    margin-left: -50px;
+  }
+  #links{
+    font-size: 25px;
+   
+  }
+  #nav-toggle{
+    margin: 25px;
+    margin-top: -100px;
   }
 }
