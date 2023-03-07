@@ -183,7 +183,6 @@ h3{
   }
 
   .portfolio-item img {
-
     width: 100%;
     height: auto;
   }
@@ -196,7 +195,12 @@ h3{
   .card-text {
     padding: 5px;
   }
-
+  #resume-text{
+    margin-top:10px;
+  }
+  #resume-list{
+    margin-left: -50px;
+  }
   .resume-link {
     font-size: 14px;
   }

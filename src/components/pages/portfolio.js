@@ -55,7 +55,8 @@ const cardData = [
 
 export default function Portfolio () {
   const styles = {
-    marginLeft: "60px",
+    marginTop:"-45px",
+    marginLeft: "100px",
     padding: "40px",
   };
   return (

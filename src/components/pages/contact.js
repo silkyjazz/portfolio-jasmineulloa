@@ -6,7 +6,8 @@ import {Button, Form, Container, Row, Col} from 'react-bootstrap';
 
 export default function Contact() {
   const styles = {
-    marginLeft: "60px",
+    marginTop:"-45px",
+    marginLeft: "100px",
     padding: "40px",
   };
   const [name, setName] = useState('');
