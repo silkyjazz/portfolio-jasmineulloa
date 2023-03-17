@@ -7,8 +7,15 @@ import pwgenerator from "../../images/password-generator.png";
 import weatherDashboard from "../../images/weather-dashboard.png";
 import jsQuiz from "../../images/javascript-quiz.png";
 import employeeTracker from '../../images/employee-manager.png';
+import flashcards from '../../images/flashcards.png'
 
 const cardData = [
+    {
+    title: "Flashcards",
+    image: flashcards,
+    description: "This sites allows users to create and study customized flashcards",
+    link: "https://github.com/silkyjazz/react-flashcards",
+  },
   {
     title: "Note Taker",
     image: noteTaker,
